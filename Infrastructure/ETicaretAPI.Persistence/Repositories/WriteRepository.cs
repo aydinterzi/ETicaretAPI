@@ -19,7 +19,7 @@ namespace ETicaretAPI.Persistence.Repositories
         {
             _context = context;
         }
-
+        
         public DbSet<T> Table
             => _context.Set<T>();
 
